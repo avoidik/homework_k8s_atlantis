@@ -1,0 +1,11 @@
+github:
+  user: <github username goes here>
+  token: <github token goes here>
+  secret: <generated secret goes here>
+orgWhitelist: github.com/<github org goes here>/*
+service:
+  type: LoadBalancer
+ingress:
+  enabled: false
+test:
+  enabled: false
